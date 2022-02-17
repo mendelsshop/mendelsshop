@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @mendelsshop
-- 👀 I’m interested in: python
-- 🌱 I’m currently learning: python
+- 👀 I’m interested in: Python and Rust
+- 🌱 I’m currently learning: Python, Java, and Rust
 - 📫 How to reach me: mendelsshop@gmail.com
 
 <!---
