@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @mendelsshop
+- 👋 Hi, I’m [@mendelsshop](htpps://github.com/mendelsshop)
 - 👀 I’m interested in: Python, Rust, and C 
 - 🌱 I’m currently learning: Python, Java, and Rust
 - 📫 How to reach me: mendelsshop@gmail.com
