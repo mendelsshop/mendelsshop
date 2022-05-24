@@ -2,7 +2,7 @@
 - 👀 I’m interested in: 
 <a href="https://rust-lang.org" target="_blank"> <img src="https://rustacean.net/assets/rustacean-flat-happy.png" width="35" height="30"/></a> 
 <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="30" height="30"/></a>
-<a target="_blank"> <img src="https://user-images.githubusercontent.com/82669516/170111304-3684b458-433a-46d7-913b-c092bed4c6e1.png" width="30" height="30"/> <a>
+<a> <img src="https://user-images.githubusercontent.com/82669516/170111304-3684b458-433a-46d7-913b-c092bed4c6e1.png" width="30" height="30"/> <a>
 
 - 🌱 I’m currently learning: Python, and Rust
 - 📫 How to reach me: mendelsshop@gmail.com
