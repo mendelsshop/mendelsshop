@@ -9,7 +9,9 @@
 <br>
 - 📫 How to reach me: mendelsshop@gmail.com
 <br>
+  
 <details>
+    <br>
     <summary>Click for more</summary>
     <p align="center">
 
