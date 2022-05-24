@@ -15,7 +15,7 @@
         <br>
     
 <Details>
-    <summary>My Github stats</summary>
+    <summary>My Github stats:</summary>
     <p align="center">
             
 ![mendelsshop's GitHub stats](https://github-readme-stats.vercel.app/api?username=mendelsshop&show_icons=true&theme=dark)
