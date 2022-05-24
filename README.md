@@ -10,8 +10,6 @@
     <summary>Click for more</summary>
     <p align="center">
 
-    </p>
-</details>
 
 ![mendelsshop's GitHub stats](https://github-readme-stats.vercel.app/api?username=mendelsshop&show_icons=true&theme=dark)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mendelsshop&exclude_repo=github-readme-stats,mendelsshop.github.io&theme=dark)](https://github.com/mendelsshop/github-readme-stats)
