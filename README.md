@@ -1,5 +1,7 @@
 - 👋 Hi, I’m  <a href="https://github.com/mendelsshop/">@mendelsshop</a>
-- 👀 I’m interested in: Python, Rust, and C 
+- 👀 I’m interested in: <a href="https://rust-lang.org" target="_blank"> <img src="https://rustacean.net/assets/rustacean-flat-happy.png" width="35" height="30"/></a> <a href="https://www.python.org" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="30" height="30"/>
+</a>
 - 🌱 I’m currently learning: Python, and Rust
 - 📫 How to reach me: mendelsshop@gmail.com
 
