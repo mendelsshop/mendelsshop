@@ -13,6 +13,7 @@
 - 📫 How to reach me: mendelsshop@gmail.com
 <details>
     <br>
+    <br>
     <summary>Click for more</summary>
     <p align="center">
 
