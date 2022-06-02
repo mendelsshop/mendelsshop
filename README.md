@@ -2,7 +2,7 @@
 - 👀 I’m interested in: 
 [![Rust](https://img.shields.io/badge/Rust-000000?logo=Rust)](https://rust-lang.org)
 [![Python](https://img.shields.io/badge/Python-000000?logo=python)](https://python.org)
-![](https://img.shields.io/badge/-000000?logo=C)
+![Lang](https://img.shields.io/badge/-000000?logo=C)
 
 
 - 🌱 I’m currently learning: 
