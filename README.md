@@ -9,7 +9,6 @@
 [![Rust](https://img.shields.io/badge/Rust-000000?logo=Rust)](https://rust-lang.org)
 [![Python](https://img.shields.io/badge/Python-000000?logo=python)](https://python.org)
 
-        <br>
 - 📫 How to reach me: mendelsshop@gmail.com
         <br>
     
