@@ -1,13 +1,14 @@
 - 👋 Hi, I’m  <a href="https://github.com/mendelsshop/">@mendelsshop</a>
 - 👀 I’m interested in: 
 [![Rust](https://img.shields.io/badge/Rust-000000?logo=Rust)](https://rust-lang.org)
-![](https://img.shields.io/badge/-000000?logo=C)
 [![Python](https://img.shields.io/badge/Python-000000?logo=python)](https://python.org)
+![](https://img.shields.io/badge/-000000?logo=C)
+
 
 - 🌱 I’m currently learning: 
-<a href="https://rust-lang.org" target="_blank"> <img src="https://user-images.githubusercontent.com/82669516/170113762-a44be0f4-7abc-4fc5-a5f4-95ba3c27d063.png" width="30" height="30"/></a> 
-<a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="30" height="30"/></a>
-    <br>
+[![Rust](https://img.shields.io/badge/Rust-000000?logo=Rust)](https://rust-lang.org)
+[![Python](https://img.shields.io/badge/Python-000000?logo=python)](https://python.org)
+
         <br>
 - 📫 How to reach me: mendelsshop@gmail.com
         <br>
