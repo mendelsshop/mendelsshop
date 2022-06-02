@@ -7,12 +7,12 @@ import os
 #     print("authenticated")
 # else:
 #     print("not authenticated")
-API_KEY = os.environ['GITHUB_TOKEN']
+# API_KEY = os.environ['GITHUB_TOKEN']
 loc = 0.0
 urls = []
 z = requests.get(
     "https://api.github.com/users/mendelsshop/repos?per_page=1000",
-    auth=("mendelsshop", API_KEY)
+    # auth=("mendelsshop", API_KEY)
 )
 l = z.json()
 for i in l:
