@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 import sys
 import os
 
+file = open("log.txt", "w")
 API_KEY = os.environ['GITHUB_TOKEN']
 loc = 0.0
 urls = []
@@ -49,3 +50,4 @@ elif loc / 1000000000000 < 1:
     print(f"{loc/1000000000:.2f}B")
 else:
     print(f"{loc/1000000000000:.2f}T")
+file.close()
