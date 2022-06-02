@@ -1,9 +1,16 @@
 import requests
 import xml.etree.ElementTree as ET
 import sys
+
+if sys.argv[2]:
+    print("authenticated")
+    
 loc = 0.0
 urls = []
-z = requests.get("https://api.github.com/users/mendelsshop/repos?per_page=1000" , auth=('mendelsshop', sys.argv[2]))
+z = requests.get(
+    "https://api.github.com/users/mendelsshop/repos?per_page=1000",
+    auth=("mendelsshop", sys.argv[2]),
+)
 l = z.json()
 for i in l:
     urls.append(i["full_name"])
@@ -32,7 +39,6 @@ for i in urls:
                         else:
                             loc += 0
 
-                        
 
 if loc / 1000 < 1:
     print(f"{loc:.2f}")
@@ -44,5 +50,3 @@ elif loc / 1000000000000 < 1:
     print(f"{loc/1000000000:.2f}B")
 else:
     print(f"{loc/1000000000000:.2f}T")
-
-
