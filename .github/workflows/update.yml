@@ -16,4 +16,16 @@ jobs:
       - name: update
         run: |
           python -m pip install requests
-          python update.py
+          "LOC=$(python update.py)"" >> $GITHUB_ENV
+
+      - name: Test
+        run: echo $LOC
+
+      # - name: Generate the badge SVG image
+      #   uses: emibcn/badge-action@v1
+      #   id: badge
+      #   with:
+      #     label: 'Test coverage'
+      #     status: ${{ steps.coverage.outputs.lines }}
+      #     color: 'blue,555,daf'
+      #     path: ${{ steps.coverage.outputs.path }}
