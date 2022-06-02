@@ -34,14 +34,14 @@ for i in urls:
                         
 
 if loc / 1000 < 1:
-    print(f"{loc:.2f} lines of code")
+    print(f"{loc:.2f}")
 elif loc / 1000000 < 1:
-    print(f"{loc/1000:.2f}K lines of code")
+    print(f"{loc/1000:.2f}K")
 elif loc / 1000000000 < 1:
-    print(f"{loc/1000000:.2f}M lines of code")
+    print(f"{loc/1000000:.2f}M")
 elif loc / 1000000000000 < 1:
-    print(f"{loc/1000000000:.2f}B lines of code")
+    print(f"{loc/1000000000:.2f}B")
 else:
-    print(f"{loc/1000000000000:.2f}T lines of code")
+    print(f"{loc/1000000000000:.2f}T")
 
 
