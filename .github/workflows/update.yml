@@ -8,7 +8,7 @@ on:
 jobs:
   update:
     name: Update
-    runs-on: runs-on: self-hosted-linux
+    runs-on: self-hosted-linux
     steps:
       - uses: actions/checkout@v2
       - name: setup python
