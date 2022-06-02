@@ -18,13 +18,12 @@ jobs:
           python -m pip install requests
           echo "LOC=$(python update.py)" >> $GITHUB_ENV
 
-      - name: Test
-        run: echo $LOC
-
-      - name: Generate the badge SVG image
-        uses: emibcn/badge-action@v1
-        id: badge
+      - name: Create Awesome Badge
+        uses: schneegans/dynamic-badges-action@v1.4.0
         with:
-          label: 'Lines of Code'
-          color: 'blue,555,daf'
-          path: $LOC
+          auth: ${{ secrets.GIST_SECRET }}
+          gistID: 17941a30ee9756244bfb9e1526fa6304
+          filename: test.json
+          label: Lines of Code
+          message: ${{ env.LOC }}
+          color: black
