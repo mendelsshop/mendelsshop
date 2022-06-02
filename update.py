@@ -4,7 +4,9 @@ import sys
 
 if sys.argv[2]:
     print("authenticated")
-    
+else:
+    print("not authenticated")
+
 loc = 0.0
 urls = []
 z = requests.get(
