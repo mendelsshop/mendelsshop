@@ -14,14 +14,14 @@
     
 <Details>
     <summary>My Github stats:</summary>
-    <p align="center">
+<!--     <p align="center"> -->
             
 ![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/mendelsshop/17941a30ee9756244bfb9e1526fa6304/raw/test.json)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mendelsshop&exclude_repo=github-readme-stats,mendelsshop.github.io&theme=dark)
 ![mendelsshop's GitHub stats](https://github-readme-stats.vercel.app/api?username=mendelsshop&show_icons=true&theme=dark)
 
             
-   </p>
+<!--    </p> -->
 </Details>
 
 <!---
