@@ -1,8 +1,9 @@
 import requests
 import xml.etree.ElementTree as ET
+import sys
 loc = 0.0
 urls = []
-z = requests.get("https://api.github.com/users/mendelsshop/repos?per_page=1000")
+z = requests.get("https://api.github.com/users/mendelsshop/repos?per_page=1000" , auth=('mendelsshop', sys.argv[2]))
 l = z.json()
 for i in l:
     urls.append(i["full_name"])
