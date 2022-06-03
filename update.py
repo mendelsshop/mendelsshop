@@ -14,7 +14,10 @@ for i in l:
 
 for i in urls:
     r = requests.get(f"https://tokei.rs/b1/github/{i}")
-    root = ET.fromstring(r.content)
+    try:
+        root = ET.fromstring(r.content)
+    except:
+        continue
     for child in root:
         for subchild in enumerate(child.itertext()):
             if subchild[1].startswith("total lines"):
