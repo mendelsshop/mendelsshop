@@ -2,6 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 import sys
 import os
+import time
 
 loc = 0.0
 urls = []
@@ -16,8 +17,10 @@ for i in urls:
     q = 0
     while True:
         r = requests.get(f"https://tokei.rs/b1/github/{i}")
-        if (r.status_code < 200 or r.status_code >= 400) and q != 3:
-            continue
+        if (r.status_code < 200 or r.status_code >= 400) and q != 3: # if the https reponse code is not 200 and we havent tried 3 times
+            time.sleep(60 * 3) # wait s minutes to not overwhelm the server
+            q += 1 # bump the amount of tries
+            continue # try again
         else:
             break
     try:
