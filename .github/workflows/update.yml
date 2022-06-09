@@ -18,7 +18,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install requests
           echo "LOC=$(python update.py)" >> $GITHUB_ENV
+          echo "${{ env.LOC }}"
       - name: Create Awesome Badge
+        if: ${{ (env.LOC != '') }} # if its blank we shouldnt update
         uses: schneegans/dynamic-badges-action@v1.4.0
         with:
           auth: ${{ secrets.GIST_SECRET }}
