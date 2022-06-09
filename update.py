@@ -13,7 +13,13 @@ for i in l:
     urls.append(i["full_name"])
 
 for i in urls:
-    r = requests.get(f"https://tokei.rs/b1/github/{i}")
+    q = 0
+    while True:
+        r = requests.get(f"https://tokei.rs/b1/github/{i}")
+        if (r.status_code < 200 or r.status_code >= 400) and q != 3:
+            continue
+        else:
+            break
     try:
         root = ET.fromstring(r.content)
     except:
@@ -50,4 +56,3 @@ elif loc / 1000000000000 < 1:
     print(f"{loc/1000000000:.2f}B")
 else:
     print(f"{loc/1000000000000:.2f}T")
-
