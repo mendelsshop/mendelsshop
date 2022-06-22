@@ -24,11 +24,6 @@ loc += float(pj['Total']['code'])
 loc += float(pj['Total']['comments'])
 loc += float(pj['Total']['blanks'])
 
-    
-
-            
-
-
 if loc / 1000 < 1:
     print(f"{loc:.2f}")
 elif loc / 1000000 < 1:
