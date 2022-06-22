@@ -10,15 +10,18 @@ z = requests.get(
     "https://api.github.com/users/mendelsshop/repos?per_page=1000",
 )
 l = z.json()
+# print(l)
 for i in l:
     urls.append(i["full_name"])
 
 for i in urls:
+    print(i)
     q = 0
     while True:
         r = requests.get(f"https://tokei.rs/b1/github/{i}")
         if (r.status_code < 200 or r.status_code >= 400) and q != 3: # if the https reponse code is not 200 and we havent tried 3 times
             time.sleep(60 * 3) # wait s minutes to not overwhelm the server
+            print(r.status_code)
             q += 1 # bump the amount of tries
             continue # try again
         else:
@@ -33,6 +36,7 @@ for i in urls:
                 # get the the i
                 if child[subchild[0]].text == "total lines":
                     text = child[subchild[0] + 1].text
+                    print(text)
                     if text.isdigit():
                         loc += float(text)
                     else:

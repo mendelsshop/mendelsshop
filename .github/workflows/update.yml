@@ -13,11 +13,18 @@ jobs:
       - uses: actions/checkout@v2
       - name: setup python
         uses: actions/setup-python@v2
+      - name: Install stable toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
       - name: update
         run: |
+          cargo install tokei
           python -m pip install --upgrade pip
           python -m pip install requests
-          echo "LOC=$(python update.py)" >> $GITHUB_ENV
+          echo "LOC=$(python updatenew.py)" >> $GITHUB_ENV
           echo "${{ env.LOC }}"
       - name: Create Awesome Badge
         if: ${{ (env.LOC != '') }} # if its blank we shouldnt update
