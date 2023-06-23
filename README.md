@@ -1,15 +1,12 @@
 - 👋 Hi, I’m  <a href="https://github.com/mendelsshop/">@mendelsshop</a>
+- Reach me by <a rel="me" href="https://hachyderm.io/@mendelsshop"> <img src="https://img.shields.io/badge/-000000?logo=Mastodon" alt="Mastodon"></a> <a href="mailto:mendelsshop@gmail.com"> 📫 </a>
 - 👀 I’m interested in: 
 [![Rust](https://img.shields.io/badge/Rust-000000?logo=Rust)](https://rust-lang.org)
 [![Python](https://img.shields.io/badge/Python-000000?logo=python)](https://python.org)
-![Lang](https://img.shields.io/badge/-000000?logo=C)
-
-
+![C](https://img.shields.io/badge/-000000?logo=C)
 - 🌱 I’m currently learning: 
 [![Rust](https://img.shields.io/badge/Rust-000000?logo=Rust)](https://rust-lang.org)
 [![Python](https://img.shields.io/badge/Python-000000?logo=python)](https://python.org)
-
-- 📫 How to reach me: mendelsshop@gmail.com
         <br>
     
 <Details>
