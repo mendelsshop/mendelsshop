@@ -1,12 +1,17 @@
 - 👋 Hi, I’m  <a href="https://github.com/mendelsshop/">@mendelsshop</a>
-- Reach me by <a rel="me" href="https://hachyderm.io/@mendelsshop"> <img src="https://img.shields.io/badge/-000000?logo=Mastodon" alt="Mastodon"></a> <a href="mailto:mendelsshop@gmail.com"> 📫 </a>
+- Reach me by 
+[![Mastodon](https://img.shields.io/badge/Mastodon-000000?logo=Mastodon)](https://hachyderm.io/@mendelsshop)
+[![Email](https://img.shields.io/badge/Email-000000?logo=Gmail)](mailto:mendelsshop@gmail.com)
+
 - 👀 I’m interested in: 
 [![Rust](https://img.shields.io/badge/Rust-000000?logo=Rust)](https://rust-lang.org)
 [![Python](https://img.shields.io/badge/Python-000000?logo=python)](https://python.org)
-![C](https://img.shields.io/badge/-000000?logo=C)
+![C](https://img.shields.io/badge/C-000000?logo=C)
 - 🌱 I’m currently learning: 
 [![Rust](https://img.shields.io/badge/Rust-000000?logo=Rust)](https://rust-lang.org)
 [![Python](https://img.shields.io/badge/Python-000000?logo=python)](https://python.org)
+![C](https://img.shields.io/badge/C-000000?logo=C)
+[![Java](https://img.shields.io/badge/Java-000000?logo=OpenJDK)](https://openjdk.org/)
         <br>
     
 <Details>
@@ -20,7 +25,8 @@
             
    </p>
 </Details>
-
+<!-- for mastodon verification -->
+<a rel="me" href="https://hachyderm.io/@mendelsshop"> </a>
 <!---
 mendelsshop/mendelsshop is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
