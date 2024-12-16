@@ -15,7 +15,8 @@
 ![C](https://img.shields.io/badge/C-000000?logo=C)
 [![Java](https://img.shields.io/badge/Java-000000?logo=OpenJDK)](https://openjdk.org/)
         <br>
-    
+- My [website](https://mendelsshop.github.io/)
+
 <Details>
     <summary>My Github stats:</summary>
     <p align="center">
